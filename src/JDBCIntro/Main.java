@@ -23,7 +23,7 @@ public class Main {
 
         Properties properties = new Properties();
         properties.setProperty("user", "root");
-        properties.setProperty("password", "Rosi.5200");
+        properties.setProperty("password", "1234");
 
         connection = DriverManager.getConnection(link + database, properties);
 
